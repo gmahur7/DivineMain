@@ -1,0 +1,24 @@
+{
+  "name": "divine",
+  "version": "1.0.0",
+  "description": "Divine Main Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.10.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0",
+    "@react-oauth/google": "^0.11.1",
+    "google": "^2.1.0",
+    "jwt-decode": "^4.0.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
